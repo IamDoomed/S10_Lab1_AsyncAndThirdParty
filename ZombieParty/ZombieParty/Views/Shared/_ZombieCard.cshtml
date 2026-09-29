@@ -18,8 +18,11 @@
             </div>
         </div>
         <a class="p-2 border w-100 btn btn-warning px-3">
+            <i class="fa-solid fa-circle-info"></i>&nbsp;
             Show Detail Card
         </a>
+
+        <a class="p-2 border w-100 btn btn-info px-3" asp-action="Edit" asp-route-Id="@Model.Id" asp-controller="Zombie"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Edit</a>
         <hr />
     </div>
 </div>
